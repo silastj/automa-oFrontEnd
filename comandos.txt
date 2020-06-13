@@ -1,0 +1,16 @@
+MKDIR => Criar Pasta
+
+LS => Pesquisa dentro da pasta ou do diretorio
+
+TOUCH => Criar arquivo
+
+RM => Deletar arquivo
+
+RM - R => Deletar diretorio
+
+CD [ Mais o nome pasta ] => Ele vai para pasta seguinte
+
+CD.. Ele volta o caminho anterior
+
+CLEAR => Ele limpa a tela
+
