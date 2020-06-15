@@ -14,3 +14,42 @@ CD.. Ele volta o caminho anterior
 
 CLEAR => Ele limpa a tela
 
+///////////////////////
+
+
+CRIAÇÃO DO PACKAGE.JSON É => npm init
+
+
+///////////////////////
+
+
+COMANDO DO WEBPACK
+
+$ npm install --save-dev webpack webpack-cli
+
+
+OBS => [ COMANDO -DEV ELE É USADO FORA DOS COMANDOS DO PROJETO  E NÃO DENTRO]
+
+ npx webpack js/script.js --output ./main.js --watch
+
+ COMANDO ACIMA É:
+ PEGAR A PASTA QUE QUERO MINIFICAR
+ MOSTRAR O CAMINHO DA PASTA QUE SERA MINIFICADA
+ 
+ O WATCH TODA MODIFICAÇÃO QUE TEM NO ARQUIVO ELE ATUALIZA AUTOMATICO
+
+
+ARQUIVOS EM PRODUÇÃO
+webpack --mode production ./script.js output ./main.js 
+
+ARQUIVOS EM DESENVOLVIMENTO ( DEV )
+webpack --mode development --watch ./script.js output ./main.js 
+
+
+
+///////////////////////
+
+BABEL
+
+
+
