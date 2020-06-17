@@ -64,6 +64,16 @@ npm install whatwg-fetch --save
 Ele transforma o codigo novo em codigo antigo
 Pra que? R: prá dá Browser Suporte
 
+///////////////////////////////////////////
+
+GIT
+
+.gitignore não sobe os arquivos que está escrito dentro do arquivo
+exemplo:
+
+node_modules
+
+
 
 
 
